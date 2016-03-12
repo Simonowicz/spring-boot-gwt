@@ -2,7 +2,8 @@
              xmlns:g='urn:import:com.google.gwt.user.client.ui'>
     <g:HTMLPanel>
         <div>
-            <h1>Dupa</h1>
+            <h1>Welcome view</h1>
+            <g:Label ui:field="welcomeLabel"/>
         </div>
     </g:HTMLPanel>
 </ui:UiBinder>

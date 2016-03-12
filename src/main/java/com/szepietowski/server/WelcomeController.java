@@ -1,9 +1,9 @@
 package com.szepietowski.server;
 
+import com.szepietowski.client.welcome.WelcomeMessage;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class WelcomeController {
 
     @RequestMapping(method = RequestMethod.GET)
-    public ResponseEntity<String> welcome(@RequestParam("parameter") String text) {
-        return ResponseEntity.ok(text);
+    public ResponseEntity<WelcomeMessage> getWelcomeMessage() {
+        return ResponseEntity.ok(new WelcomeMessage("Hello World!"));
     }
 }
