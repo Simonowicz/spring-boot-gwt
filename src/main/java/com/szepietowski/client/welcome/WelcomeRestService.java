@@ -1,5 +1,6 @@
 package com.szepietowski.client.welcome;
 
+import com.szepietowski.server.model.dto.WelcomeMessage;
 import org.fusesource.restygwt.client.MethodCallback;
 import org.fusesource.restygwt.client.RestService;
 

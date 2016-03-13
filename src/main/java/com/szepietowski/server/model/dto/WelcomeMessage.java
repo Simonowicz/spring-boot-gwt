@@ -1,4 +1,4 @@
-package com.szepietowski.client.welcome;
+package com.szepietowski.server.model.dto;
 
 import java.io.Serializable;
 

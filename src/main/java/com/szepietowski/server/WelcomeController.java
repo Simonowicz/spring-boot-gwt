@@ -1,6 +1,6 @@
 package com.szepietowski.server;
 
-import com.szepietowski.client.welcome.WelcomeMessage;
+import com.szepietowski.server.model.dto.WelcomeMessage;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

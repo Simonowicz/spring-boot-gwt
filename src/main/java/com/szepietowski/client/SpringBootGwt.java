@@ -3,6 +3,7 @@ package com.szepietowski.client;
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.user.client.ui.RootPanel;
+import com.szepietowski.client.login.Login;
 import com.szepietowski.client.welcome.Welcome;
 import org.fusesource.restygwt.client.Defaults;
 
@@ -13,7 +14,7 @@ public class SpringBootGwt implements EntryPoint {
     @Override
     public void onModuleLoad() {
         useCorrectRequestBaseUrl();
-        RootPanel.get().add(new Welcome());
+        RootPanel.get().add(new Login());
     }
 
     private void useCorrectRequestBaseUrl() {
